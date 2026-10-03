@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Custom Objects -->
+    <types>
+        <members>Vehicle__c</members>
+        <members>Vehicle_Dealer__c</members>
+        <members>Vehicle_Customer__c</members>
+        <members>Vehicle_Order__c</members>
+        <members>Vehicle_Test_Drive__c</members>
+        <members>Vehicle_Service_Request__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <version>67.0</version>
+
+</Package>
